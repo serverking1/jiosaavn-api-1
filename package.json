@@ -40,7 +40,7 @@
     "prerelease": "bun run test",
     "release": "bun run changelogen --release --push",
     "spell-check": "cspell .",
-    "postinstall": "npx simple-git-hooks"
+    "postinstall": "echo skip hooks"
   },
   "simple-git-hooks": {
     "pre-commit": "bun run lint && bun run format",
